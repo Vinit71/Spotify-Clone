@@ -1,3 +1,23 @@
+import homeIcon from './home-icon.svg'
+import searchIcon from './search-icon.svg'
+import libraryIcon from './library-icon.png'
+import rightIcon from './right-icon.png'
+import plusIcon from './plus-icon.svg'
+import circularPlusIcon from './circularPlus-icon.svg'
+import backwardIcon from './backward-icon.png'
+import playIcon from './play-icon.png'
+import forwardIcon from './forward-icon.png'
+import repeatIcon from './repeat-icon.png'
+import shuffleIcon from './shuffle-icon.png'
+import playingViewIcon from './playingView-icon.png'
+import micIcon from './mic-icon.png'
+import queueIcon from './queue-icon.png'
+import deviceIcon from './device-icon.png'
+import speakerIcon from './speaker-icon.png'
+import fullScreenIcon from './fullScreen-icon.png'
+import leftArrowIcon from './leftArrow-icon.png'
+import rightArrowIcon from './rightArrow-icon.png'
+
 import Arijit from './arijit.jpg'
 import KK from './KK.jpg'
 import Eminem from './eminem.jpg'
@@ -6,9 +26,8 @@ import Music1 from './music1.jpg'
 import Song1Image from './Song1Image.jpg'
 import Top50 from './top50.jpg'
 import Song1 from './song1.mp3'
-import Home from './home.svg'
-import Search from './search.svg'
-// import Arijit from './arijit.jpg'
+
+
 export const assets = {
     Arijit,
     KK,
@@ -17,104 +36,135 @@ export const assets = {
     Music1,
     Song1,
     Top50,
-    Home,
-    Search
+    searchIcon,
+    homeIcon,
+    libraryIcon,
+    rightIcon,
+    plusIcon,
+    circularPlusIcon,
+    backwardIcon,
+    forwardIcon,
+    playIcon,
+    playingViewIcon,
+    micIcon,
+    queueIcon,
+    deviceIcon,
+    speakerIcon,
+    fullScreenIcon,
+    shuffleIcon,
+    repeatIcon,
+    leftArrowIcon,
+    rightArrowIcon
 }
 
 export const albumData = [
     {
-        id: 1,
+        id: 0,
         name: "Top 50 India",
         image: Top50,
-        disc: "Most Listened Songs this Week",
+        desc: "Most Listened Songs this Week",
+        bgColor: "#742a2a"
+    },
+    {
+        id: 1,
+        name: "Arijit Singh",
+        image: Arijit,
+        desc: "Best of Arijit Singh",
         bgColor: "#742a2a"
     },
     {
         id: 2,
-        name: "Arijit Singh",
-        image: Arijit,
-        disc: "Best of Arijit Singh",
+        name: "KK",
+        image: KK,
+        desc: "The KK Era through back",
         bgColor: "#742a2a"
     },
     {
         id: 3,
-        name: "KK",
-        image: KK,
-        disc: "The KK Era through back",
+        name: "Eninem",
+        image: Eminem,
+        desc: "Fuel your Workouts",
         bgColor: "#742a2a"
     },
     {
         id: 4,
         name: "Eninem",
         image: Eminem,
-        disc: "Fuel your Workouts",
+        desc: "Fuel your Workouts",
+        bgColor: "#742a2a"
+    },
+    {
+        id: 5,
+        name: "Eninem",
+        image: Eminem,
+        desc: "Fuel your Workouts",
         bgColor: "#742a2a"
     }
 ]
 
 export const songsData = [
     {
-        id: 1,
-        name: "Song1",
-        image: Music1,
+        id: 0,
+        name: "Pehle bhi me",
+        image: Song1Image,
         file: Song1,
-        desc: "Song1",
-        duration: "3:00"
+        desc: "Best of Animal",
+        duration: "4:47"
     },
     {
-        id: 2,
+        id: 1,
         name: "Song2",
-        image: Music1,
+        image: Song1Image,
         file: Song1,
         desc: "Best",
         duration: "4:00"
     },
     {
-        id: 3,
+        id: 2,
         name: "Song3",
-        image: Music1,
+        image: Song1Image,
+        file: Song1,
+        desc: "Above Best",
+        duration: "5:00"
+    },
+    {
+        id: 3,
+        name: "Song4",
+        image: Song1Image,
         file: Song1,
         desc: "Above Best",
         duration: "5:00"
     },
     {
         id: 4,
-        name: "Song4",
-        image: Music1,
+        name: "Song5",
+        image: Song1Image,
         file: Song1,
         desc: "Above Best",
         duration: "5:00"
     },
     {
         id: 5,
-        name: "Song5",
-        image: Music1,
+        name: "Song6",
+        image: Song1Image,
         file: Song1,
         desc: "Above Best",
         duration: "5:00"
     },
     {
         id: 6,
-        name: "Song6",
-        image: Music1,
+        name: "Song7",
+        image: Song1Image,
         file: Song1,
         desc: "Above Best",
         duration: "5:00"
     },
     {
         id: 7,
-        name: "Song7",
-        image: Music1,
-        file: Song1,
-        desc: "Above Best",
-        duration: "5:00"
-    },
-    {
-        id: 8,
         name: "Song8",
-        image: Music1,
+        image: Song1Image,
         file: Song1,
         desc: "Above Best",
         duration: "5:00"
-    },
+    }
 ]
