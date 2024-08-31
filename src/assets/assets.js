@@ -27,7 +27,9 @@ import Lofi from './lofi.jpg'
 import Music1 from './music1.jpg'
 import Song1Image from './Song1Image.jpg'
 import Top50 from './top50.jpg'
-import Song1 from './song1.mp3'
+
+import Song1 from './Songs/song1.mp3'
+import Song2 from './Songs/Mockingbird.mp3'
 
 import SatrangaSong from './satrangaSong.jpeg'
 import AyeKhudaSong from './ayeKhudaSong.jpeg'
@@ -132,11 +134,11 @@ export const songsData = [
     },
     {
         id: 1,
-        name: "Aye Khuda",
-        image: AyeKhudaSong,
-        file: Song1,
-        desc: "Murder 2",
-        duration: "4:00"
+        name: "MockingBird",
+        image: MockingBird,
+        file: Song2,
+        desc: "Fuel your workout",
+        duration: "5:00"
     },
     {
         id: 2,
@@ -148,11 +150,11 @@ export const songsData = [
     },
     {
         id: 3,
-        name: "MockingBird",
-        image: MockingBird,
+        name: "Aye Khuda",
+        image: AyeKhudaSong,
         file: Song1,
-        desc: "Fuel your workout",
-        duration: "5:00"
+        desc: "Murder 2",
+        duration: "4:00"
     },
     {
         id: 4,
