@@ -21,18 +21,35 @@ import rightArrowIcon from './rightArrow-icon.png'
 import Arijit from './arijit.jpg'
 import KK from './KK.jpg'
 import Eminem from './eminem.jpg'
+import luisFonsi from './luisFonsiAlbum.jpeg'
+import starBoy from './starBoyAlbum.jpeg'
 import Lofi from './lofi.jpg'
 import Music1 from './music1.jpg'
 import Song1Image from './Song1Image.jpg'
 import Top50 from './top50.jpg'
 import Song1 from './song1.mp3'
 
+import SatrangaSong from './satrangaSong.jpeg'
+import AyeKhudaSong from './ayeKhudaSong.jpeg'
+import UskaHiBanana from './uskaHiBananaSong.jpeg'
+
+import pauseIcon from './pauseIcon.png'
+
+import MockingBird from './Eminem-Img/eminemMockingBird.jpeg'
+import WithoutMe from './Eminem-Img/eminemWithoutMe.jpeg'
 
 export const assets = {
     Arijit,
     KK,
     Eminem,
+    luisFonsi,
+    starBoy,
     Lofi,
+
+    SatrangaSong,
+    AyeKhudaSong,
+    UskaHiBanana,
+
     Music1,
     Song1,
     Top50,
@@ -54,7 +71,9 @@ export const assets = {
     shuffleIcon,
     repeatIcon,
     leftArrowIcon,
-    rightArrowIcon
+    rightArrowIcon,
+
+    pauseIcon
 }
 
 export const albumData = [
@@ -81,22 +100,22 @@ export const albumData = [
     },
     {
         id: 3,
-        name: "Eninem",
+        name: "Eminem",
         image: Eminem,
         desc: "Fuel your Workouts",
         bgColor: "#742a2a"
     },
     {
         id: 4,
-        name: "Eninem",
-        image: Eminem,
-        desc: "Fuel your Workouts",
+        name: "Luis Fonsi",
+        image: luisFonsi,
+        desc: "Go through Spain",
         bgColor: "#742a2a"
     },
     {
         id: 5,
-        name: "Eninem",
-        image: Eminem,
+        name: "StarBoy",
+        image: starBoy,
         desc: "Fuel your Workouts",
         bgColor: "#742a2a"
     }
@@ -105,66 +124,50 @@ export const albumData = [
 export const songsData = [
     {
         id: 0,
-        name: "Pehle bhi me",
-        image: Song1Image,
+        name: "Satranga",
+        image: SatrangaSong,
         file: Song1,
-        desc: "Best of Animal",
+        desc: "Animal",
         duration: "4:47"
     },
     {
         id: 1,
-        name: "Song2",
-        image: Song1Image,
+        name: "Aye Khuda",
+        image: AyeKhudaSong,
         file: Song1,
-        desc: "Best",
+        desc: "Murder 2",
         duration: "4:00"
     },
     {
         id: 2,
-        name: "Song3",
-        image: Song1Image,
+        name: "Uska hi banana",
+        image: UskaHiBanana,
         file: Song1,
-        desc: "Above Best",
+        desc: "1920",
         duration: "5:00"
     },
     {
         id: 3,
-        name: "Song4",
-        image: Song1Image,
+        name: "MockingBird",
+        image: MockingBird,
         file: Song1,
-        desc: "Above Best",
+        desc: "Fuel your workout",
         duration: "5:00"
     },
     {
         id: 4,
-        name: "Song5",
-        image: Song1Image,
+        name: "WithoutMe",
+        image: WithoutMe,
         file: Song1,
         desc: "Above Best",
         duration: "5:00"
     },
     {
         id: 5,
-        name: "Song6",
+        name: "HeartLess",
         image: Song1Image,
         file: Song1,
-        desc: "Above Best",
-        duration: "5:00"
-    },
-    {
-        id: 6,
-        name: "Song7",
-        image: Song1Image,
-        file: Song1,
-        desc: "Above Best",
-        duration: "5:00"
-    },
-    {
-        id: 7,
-        name: "Song8",
-        image: Song1Image,
-        file: Song1,
-        desc: "Above Best",
+        desc: "Arijit Singh",
         duration: "5:00"
     }
 ]

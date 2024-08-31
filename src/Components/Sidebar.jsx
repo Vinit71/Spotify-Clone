@@ -1,13 +1,15 @@
 import React from 'react'
 import {assets} from '../assets/assets'
+import { useNavigate } from 'react-router-dom'
 
 function Sidebar() {
+  const navigate = useNavigate();
   return (
    <>
-  <div className='pl-3 w-[25%] h-[97%] text-white rounded'>
+  <div className='pl-3 w-[25%] h-[97%] text-white rounded hidden sm:block'>
 
     <div className='pt-2 pl-4 h-[15%] bg-[#121212] flex flex-col justify-center gap-4 cursor-pointer mt-2'>
-      <div className='flex'>
+      <div onClick={()=>navigate('/')} className='flex'>
         <img className='w-7 h-7 ' src={assets.homeIcon} alt="" />
         <p className='pl-4'>Home</p>
       </div>
