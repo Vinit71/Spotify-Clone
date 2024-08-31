@@ -1,6 +1,6 @@
-# Responsive Spotify Web
+# Spotify Web App
 
-**Responsive Spotify Web** is a React-based clone of Spotify that replicates its core features and user experience. The project offers a responsive design that adapts to desktops, tablets, and mobile devices, providing a seamless and engaging music streaming experience. I built this project to practice and enhance my frontend development skills.
+**Spotify Web App** is a React-based clone of Spotify that replicates its core features and user experience. The project offers a responsive design that adapts to desktops, tablets, and mobile devices, providing a seamless and engaging music streaming experience. I built this project to practice and enhance my frontend development skills.
 
 ## Key Features
 - **Music Streaming**: Stream and control your favorite tracks with smooth playback functionalities.
